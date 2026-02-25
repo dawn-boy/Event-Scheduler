@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000/events";
+const API_URL = "https://event-scheduler-m4bj.onrender.com/events";
 
 document.addEventListener("DOMContentLoaded", fetchEvents);
 
