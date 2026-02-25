@@ -1,4 +1,4 @@
-# Chronicle --- Event Scheduler
+# Event Scheduler
 
 An Event scheduling application built using
 **Flask**, **SQLAlchemy**, and **PostgreSQL** (production) with a clean,
@@ -6,6 +6,8 @@ typography-focused UI.
 
 Chronicle allows users to create, update, delete, and manage upcoming
 events with real-time validation and responsive design.
+
+Visit Site: [www.event-scheduler-m4bj.onrender.com](https://event-scheduler-m4bj.onrender.com)
 
 ------------------------------------------------------------------------
 
