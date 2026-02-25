@@ -1,0 +1,151 @@
+body{
+    background-color: #1E1E1E;
+    margin: 0px 192px 50px 192px;
+    color: #E5E5E5;
+    font-family: "Newsreader";
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 40px;
+}
+.navbar h1{
+    font-weight: 200;
+}
+
+.upcoming-events-container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.upcoming-events-header{
+    margin-bottom: 20px;
+}
+.upcoming-events-header h1{
+    font-weight: 300;
+    margin-bottom: auto;
+}
+.upcoming-events-header p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #a3a3a3;
+    font-style: italic;
+}
+
+.upcoming-events{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    padding: 32px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    width: 100%;
+}
+.event-left p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+button{
+    font-family: 'Newsreader';
+    font-weight: 700;
+    font-size: 12px;
+    padding: 13px;
+    width: 80px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #3B71CA;
+    color: white;
+}
+.event-date{
+    font-size: 9px;
+    color: #3B71CA;
+    font-weight: 600;
+}
+.event-place-title{
+    font-size: 15px;
+    color: #3B71CA;
+    font-weight: 600;
+}
+.event-place{
+    font-size: 15px;
+}
+.event-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.event-time{
+    font-size: 9px;
+    font-weight: 400;
+    color: #a3a3a3;
+}
+
+.new-events-container{
+    display: flex;
+    flex-direction: column;
+}
+.new-events-header{
+    margin-top: 20px;
+}
+.new-events-header h1{
+    font-weight: 300;
+}
+.events-datetime{
+    display: flex;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.field label{
+    font-size: 10px;
+    font-weight: 600;
+    color: #a3a3a3;
+}
+.date-error {
+    color: #d11a2a;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+input.invalid {
+    border: 1px solid #d11a2a;
+}
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.field input{
+    border-style: none;
+    padding: 10px;
+    background-color: #1E1E1E;
+    font-size: 16px;
+    font-family: "Newsreader";
+    font-weight: 300;
+    color: white;
+}
+.field input::placeholder{
+    color: rgba(255,255,255,0.1);
+    font-family: "Newsreader";
+}
+.field{
+    margin-top: 20px;;
+    margin-bottom: 20px;;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+}
+
+#submit{
+    width: 120px;
+}

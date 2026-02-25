@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Scheduler</h1>
+    </div>
+
+    <div class="upcoming-events-container">
+        <div class="upcoming-events-header">
+            <h1>Upcoming Events</h1>
+            <p>A quiet space to organize yourself.</p>
+        </div>
+        <div class="upcoming-events" id="eventsList">
+            <p>Add something..</p>
+        </div>
+    </div>
+
+    <div class="new-events-container">
+        <div class="new-events-header">
+            <h1>Schedule New Events</h1>
+        </div>
+            <form class="new-events-form">
+                <div class="field">
+                    <label for="title">EVENT TITLE</label>
+                    <input type="text" id="title" placeholder="What's happening?">
+                </div>
+
+                <div class="events-datetime">
+                    <div class="field">
+                        <label for="date">DATE
+                            <span id="dateError" class="date-error"></span>
+                        </label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="field">
+                        <label for="time">TIME</label>
+                        <input type="time" id="time">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="description">LOCATION</label>
+                    <input type="text" id="description" placeholder="Where is it taking place?">
+                </div>
+
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
