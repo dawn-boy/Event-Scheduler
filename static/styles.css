@@ -1,11 +1,5 @@
 /* Responsive Design */
 
-.main-wrapper{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 24px 50px 24px;
-}
-
 input {
     width: 100%;
     box-sizing: border-box;
@@ -49,10 +43,18 @@ input {
 
 body{
     background-color: #1E1E1E;
-    margin: 0px 192px 50px 192px;
+    margin: 0;
+    padding: 0;
     color: #E5E5E5;
     font-family: "Newsreader";
 }
+
+.main-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 50px 24px;
+}
+
 .navbar{
     display: flex;
     justify-content: center;
